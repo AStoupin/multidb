@@ -1,4 +1,4 @@
-package ru.stoupin.multidb;
+package ru.stoupin.multidb.service;
 
 import java.util.Optional;
 
