@@ -26,7 +26,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 	    
 	    
 		)
-public class Config1 {
+public class ConfigDb1 {
 
 	
 	

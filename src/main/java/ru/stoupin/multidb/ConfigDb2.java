@@ -27,7 +27,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 	    entityManagerFactoryRef = "domain2EntityManager",
 	    transactionManagerRef = "domain2TransactionManager"
 	)
-public class Config2 {
+public class ConfigDb2 {
 
     @Autowired
     private Environment env;
