@@ -54,13 +54,7 @@ public class Config2 {
         properties.put("hibernate.implicit_naming_strategy", SpringImplicitNamingStrategy.class.getName());
      
         
-        
-/*        properties.put("hibernate.physical_naming_strategy",
-                env.getProperty("spring.jpa.hibernate.naming.physical-strategy"));
-*/
-  /*      properties.put("hibernate.implicit_naming_strategy",
-                env.getProperty("jpa"));
-    */    
+   
         em.setJpaPropertyMap(properties);
         
         return em;
